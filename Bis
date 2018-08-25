@@ -10,8 +10,7 @@ echo -e '\e[1;31m' "[A]Spam Call OTP"
 echo -e '\e[1;31m' "[M]LITE SPAM"
 echo -e '\e[1;37m' "[A]IPGeolacation"
 echo -e '\e[1;37m' "[L]............."
-echo -e '\e[1;37m'
- '=================================================='
+echo -e '\e[1;36m' '=================================================='
 
 read -p " Pilih Salah Satu :" act;
 if [ $act = K ]
