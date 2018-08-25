@@ -1,0 +1,47 @@
+#!/usr/bin/bash
+clear '=================================================='
+echo -e '\e[1;31m' "Author      = BisQuat"
+echo -e '\e[1;31m' "Facebook    = Kamal"  
+echo -e '\e[1;31m' "Instagram   = Kamal_Stv18 "    
+echo -e '\e[1;33m'
+echo -e '\e[1;36m' '=================================================='
+echo -e '\e[1;31m' "[K]IES SPAM"
+echo -e '\e[1;31m' "[A]Spam Call OTP"
+echo -e '\e[1;31m' "[M]LITE SPAM"
+echo -e '\e[1;37m' "[A]IPGeolacation"
+echo -e '\e[1;37m' "[L]............."
+
+read -w "=" act;
+if [ $act = K ]
+then
+figlet -f slant IES SPAM
+git clone https://github.com/Amriez/ERRORsistem.git
+exit
+fi
+if [ $act = A ]
+then
+figlet -f slant LiteOTP
+echo
+git clone https://github.com/Cvar1984/LiteOTP
+exit
+fi
+if [ $act = M ]
+then
+figlet -f slant LITESPAM
+echo
+git clone https://github.com/4L13199/LITESPAM
+exit
+fi
+if [ $act = A ]
+then
+figlet -f slant IPGeolacation
+echo
+git clone https://github.com/maldevel/IPGeoLocation.git
+exit
+fi
+if [ $act = L ]
+then
+figlet -f slant IPGeolacation
+echo
+git clone https://github.com/maldevel/IPGeoLocation.git
+exit
