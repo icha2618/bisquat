@@ -5,8 +5,8 @@ echo -e '\e[1;31m' "Facebook    = Kamal"
 echo -e '\e[1;37m' "Instagram   = Kamal_Stv18 "    
 echo -e '\e[1;33m'
 echo -e '\e[1;36m' '=================================================='
-echo -e '\e[1;31m' "[K]Boom SMS"
-echo -e '\e[1;31m' "[A]............."
+echo -e '\e[1;31m' "[K]Boom SMS & Call"
+echo -e '\e[1;31m' "[A]Boom SMS Tsel"
 echo -e '\e[1;31m' "[M]............."
 echo -e '\e[1;37m' "[A]IPGeolacation"
 echo -e '\e[1;37m' "[L]............."
@@ -15,15 +15,15 @@ echo -e '\e[1;36m' '=================================================='
 read -p " Pilih Salah Satu :" act;
 if [ $act = K ]
 then
-figlet -f slant IES SPAM
+figlet -f slant boom
 git clone https://github.com/icha2618/boom
 exit
 fi
 if [ $act = A ]
 then
-figlet -f slant LiteOTP
+figlet -f slant tsel
 echo
-git clone https://github.com/Cvar1984/LiteOTP
+git clone https://github.com/icha2618/tsel
 exit
 fi
 if [ $act = M ]
