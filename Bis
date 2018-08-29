@@ -1,5 +1,6 @@
 #!/usr/bin/bash
-clear'=================================================='
+clear 
+echo -e '\e[1;36m' '=================================================='
 echo -e '\e[1;31m' "Author      = BisQuat"
 echo -e '\e[1;31m' "Facebook    = Kamal"  
 echo -e '\e[1;37m' "Instagram   = Kamal_Stv18 "    
