@@ -3,7 +3,7 @@ clear '=================================================='
 echo -e '\e[1;31m' "Author      = BisQuat"
 echo -e '\e[1;31m' "Facebook    = Kamal"  
 echo -e '\e[1;37m' "Instagram   = Kamal_Stv18 "    
-echo date
+echo -e date
 echo -e '\e[1;36m' '=================================================='
 echo -e '\e[1;31m' "[K]Boom SMS & Call"
 echo -e '\e[1;31m' "[A]Boom SMS Tsel"
